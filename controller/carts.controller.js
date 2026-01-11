@@ -1,4 +1,4 @@
-import Cart from "../../E-Commerce-Backend-RESTful-API-Project/model/carts.model.js";
+import Cart from '../model/carts.model.js';
 
 
 //   GET CART (Get logged-in user's cart):

@@ -1,4 +1,4 @@
-import Order from "../../E-Commerce-Backend-RESTful-API-Project/model/orders.model.js";
+import Order from '../model/orders.model.js'
 
 // CREATE ORDER
 const createOrder = async (req, res) => {
