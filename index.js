@@ -71,7 +71,7 @@ app.use("/api/users/aggregate",userAggregateRoutes)
 app.use("/api/products/aggregate",productAggregateRoutes)
 app.use("/api/orders/aggregate",orderAggregateRoutes)
 
-
-app.listen(3000,()=>{
-    console.log("the server is live")
+const PORT = process.env.PORT 
+app.listen(PORT,()=>{
+    console.log(`The server is live on ${PORT}`)
 })
